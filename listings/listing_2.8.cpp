@@ -18,7 +18,7 @@ T parallel_accumulate(Iterator first, Iterator last, T init) {
 
   if (!length) return init;
 
-  unsigned long const min_per_thread = 25;
+  unsigned long const min_per_thread = 2;
   unsigned long const max_threads =
       (length + min_per_thread - 1) / min_per_thread;
 
