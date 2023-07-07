@@ -1,3 +1,15 @@
+/*
+ * Date: 
+ * From: 
+ * Category: 
+ * Description: 
+ *   use class to create and join thread
+ * Sample: 
+ * Purpose: 
+ * Test: 
+ * Result: 
+ * Comments: 
+ */
 #include <thread>
 #include <utility>
 

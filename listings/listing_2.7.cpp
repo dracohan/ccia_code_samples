@@ -1,10 +1,27 @@
+/*
+ * Date: 
+ * From: 
+ * Category: 
+ * Description: 
+ *   store thread in vector
+ * Sample: 
+ * Purpose: 
+ * Test: 
+ * Result: 
+ * Comments: 
+ */
 #include <vector>
 #include <thread>
 #include <algorithm>
 #include <functional>
+#include <iostream>
+
+using namespace std;
 
 void do_work(unsigned id)
-{}
+{
+    std::cout << "execute: " << id << std::endl;
+}
 
 void f()
 {
