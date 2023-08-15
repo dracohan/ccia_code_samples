@@ -1,5 +1,19 @@
-#include <thread>
+/*
+ * Date: 
+ * From: 
+ * Category: 
+ * Description: 
+ *   check the main thread exist before hreading
+ * Sample: 
+ * Purpose: 
+ * Test: 
+ * Result: 
+ * Comments: 
+ */
 
+#include <thread>
+#include <iostream>
+using namespace std;
 void do_something(int& i)
 {
     ++i;
@@ -16,6 +30,7 @@ struct func
         for(unsigned j=0;j<1000000;++j)
         {
             do_something(i);
+            std::cout << "i: " << i << std::endl;
         }
     }
 };
